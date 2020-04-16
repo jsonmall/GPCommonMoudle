@@ -1,0 +1,6 @@
+framework module Pods_ZGpNewCommon_Example {
+  umbrella header "Pods-ZGpNewCommon_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

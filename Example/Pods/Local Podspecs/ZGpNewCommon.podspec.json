@@ -1,0 +1,28 @@
+{
+  "name": "ZGpNewCommon",
+  "version": "0.1.1",
+  "summary": "数据驱动组件的tableView",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "git@code.aliyun.com:XZSpecs_iOS/XZGpNewCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gordon": "Gordon.Guo@zhan.com"
+  },
+  "source": {
+    "git": "git@code.aliyun.com:XZSpecs_iOS/XZGpNewCommon.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZGpNewCommon/Classes/**/*",
+  "resource_bundles": {
+    "ZGpNewCommon": [
+      "ZGpNewCommon/Assets/*.png"
+    ]
+  },
+  "prefix_header_file": "ZGpNewCommon/Classes/XZGPCommonHeader.h"
+}

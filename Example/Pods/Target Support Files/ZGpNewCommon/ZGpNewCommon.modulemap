@@ -1,0 +1,6 @@
+framework module ZGpNewCommon {
+  umbrella header "ZGpNewCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

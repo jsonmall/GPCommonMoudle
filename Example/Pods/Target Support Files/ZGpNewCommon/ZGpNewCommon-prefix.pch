@@ -1,0 +1,31 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+//
+//  XZGPCommonHeader.h
+//  XZGpCommon
+//
+//  Created by Gordon on 2020/3/1.
+//
+
+#ifndef XZGPCommonHeader_h
+#define XZGPCommonHeader_h
+
+#import "UITableView+DTPTableView.h"
+#import "DTCustomTransparentNavView.h"
+#import "DTPTableViewConfig.h"
+#import "UIImage+Utils.h"
+#import "DTStretchableTableHeaderView.h"
+#import "ZGSafeKitHeader.h"
+
+
+#endif /* XZGPCommonHeader_h */
